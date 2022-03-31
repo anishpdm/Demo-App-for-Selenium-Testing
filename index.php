@@ -33,8 +33,8 @@
 
                                     <option value="CSE"> CSE</option>
                                     <option value="ME"> ME</option>
-                                    <option value="CSE"> EEE </option>
-                                    <option value="CSE"> EC </option>
+                                    <option value="EEE"> EEE </option>
+                                    <option value="EC"> EC </option>
 
                                 </select> </td>
 
