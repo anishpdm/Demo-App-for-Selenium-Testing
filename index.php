@@ -45,7 +45,7 @@
                             <td> </td>
                             <td>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="tick" name="fcheckbox" disabled>
+                                    <input class="form-check-input" type="checkbox" value="tick" name="fcheckbox">
                                     <label class="form-check-label" for="fcheckbox">
                                         Agree Terms & conditions
                                     </label>
