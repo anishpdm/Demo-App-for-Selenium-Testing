@@ -64,12 +64,12 @@
 
                         <tr>
                             <td> Password </td>
-                            <td><input required type="text" name="pass" class="form-control"> </td>
+                            <td><input required type="password" name="pass" class="form-control"> </td>
                         </tr>
 
                         <tr>
                             <td> Confirm Password </td>
-                            <td><input required type="text" name="cnfpass" class="form-control"> </td>
+                            <td><input required type="password" name="cnfpass" class="form-control"> </td>
                         </tr>
 
                         <tr>
