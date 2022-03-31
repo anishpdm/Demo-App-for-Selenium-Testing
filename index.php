@@ -42,11 +42,12 @@
 
 
                         <tr>
+                            <td> </td>
                             <td>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDisabled" disabled>
-                                    <label class="form-check-label" for="flexCheckDisabled">
-                                        Disabled checkbox
+                                    <input class="form-check-input" type="checkbox" value="tick" name="fcheckbox" disabled>
+                                    <label class="form-check-label" for="fcheckbox">
+                                        Agree Terms & conditions
                                     </label>
                                 </div>
                             </td>
@@ -77,6 +78,8 @@ if (isset($_POST['subbtn'])) {
     echo "Name : " .  $_POST['name'];
     echo "<br>";
     echo "Gender :" .  $_POST['gen'];
+    echo "<br>";
+    echo "Branch :" .  $_POST['branch'];
 }
 
 
