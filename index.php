@@ -28,6 +28,7 @@
                             <td> <input type="radio" value="Male" name="gen"> Male &nbsp;&nbsp;&nbsp;<input type="radio" value="Female" name="gen"> FeMale </td>
                         </tr>
                         <tr>
+                            <td> Branch </td>
                             <td> <select name="branch" class="form-control">
 
                                     <option value="CSE"> CSE</option>
@@ -36,7 +37,7 @@
                                     <option value="CSE"> EC </option>
 
                                 </select> </td>
-                            <td> </td>
+
                         </tr>
 
 
