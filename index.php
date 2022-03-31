@@ -28,7 +28,20 @@
                             <td> <input type="radio" value="Male" name="gen"> Male &nbsp;&nbsp;&nbsp;<input type="radio" value="Female" name="gen"> FeMale </td>
                         </tr>
                         <tr>
-                            <td> <input type="text" class="checkbox"> &nbsp;&nbsp;&nbsp; Agree Terms and Conditions </td>
+                            <td> <select name="branch" class="form-control">
+
+                                    <option value="CSE"> CSE</option>
+                                    <option value="ME"> ME</option>
+                                    <option value="CSE"> EEE </option>
+                                    <option value="CSE"> EC </option>
+
+                                </select> </td>
+                            <td> </td>
+                        </tr>
+
+
+                        <tr>
+                            <td> <input type="checkbox" class="form-control"> &nbsp;&nbsp;&nbsp; Agree Terms and Conditions </td>
                             <td> </td>
                         </tr>
                         <tr>
