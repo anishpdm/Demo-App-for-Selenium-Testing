@@ -42,8 +42,15 @@
 
 
                         <tr>
-                            <td> <input type="checkbox" class="form-control"> &nbsp; Agree Terms and Conditions </td>
-                          
+                            <td>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDisabled" disabled>
+                                    <label class="form-check-label" for="flexCheckDisabled">
+                                        Disabled checkbox
+                                    </label>
+                                </div>
+                            </td>
+
                         </tr>
                         <tr>
                             <td> </td>
