@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col col-12 col-sm-2 col-md-2 col-lg-2 col-xl-2"></div>
+            <div class="col col-12 col-sm-8 col-md-8 col-lg-8 col-xl-8">
+                <center>
+                    <h1> User Details Entry </h1>
+                </center>
+                <form action="" method="post">
+
+                    <table class="table table-borderless">
+                        <tr>
+                            <td> Name </td>
+                            <td><input required type="text" name="name" class="form-control"> </td>
+                        </tr>
+                        <tr>
+                            <td> Gender</td>
+                            <td> <input type="radio" value="Male" name="gen"> Male &nbsp;&nbsp;&nbsp;<input type="radio" value="Female" name="gen"> FeMale </td>
+                        </tr>
+                        <tr>
+                            <td> Branch </td>
+                            <td> <select name="branch" class="form-control">
+
+                                    <option value="CSE"> CSE</option>
+                                    <option value="ME"> ME</option>
+                                    <option value="EEE"> EEE </option>
+                                    <option value="EC"> EC </option>
+
+                                </select> </td>
+
+                        </tr>
+
+                        <tr>
+                            <td> Address </td>
+                            <td> <textarea class="form-control" name="Address" cols="30" rows="10"></textarea> </td>
+                        </tr>
+
+                        <tr>
+                            <td> Pincode </td>
+                            <td><input required type="text" name="Pincode" class="form-control"> </td>
+                        </tr>
+                        <tr>
+                            <td> Mobile </td>
+                            <td><input required type="text" name="Mobile" class="form-control"> </td>
+                        </tr>
+
+
+                        <tr>
+                            <td> Email id </td>
+                            <td><input required type="text" name="Email" class="form-control"> </td>
+                        </tr>
+
+                        <tr>
+                            <td> Password </td>
+                            <td><input required type="text" name="pass" class="form-control"> </td>
+                        </tr>
+
+                        <tr>
+                            <td> Confirm Password </td>
+                            <td><input required type="text" name="cnfpass" class="form-control"> </td>
+                        </tr>
+
+                        <tr>
+                            <td> </td>
+                            <td>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="tick" name="fcheckbox">
+                                    <label class="form-check-label" for="fcheckbox">
+                                        Agree Terms & conditions
+                                    </label>
+                                </div>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td> </td>
+                            <td> <button name="subbtn" class="btn btn-success"> SUBMIT </button> </td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+            <div class="col col-12 col-sm-2 col-md-2 col-lg-2 col-xl-2"></div>
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+
+</html>
+
+<?php
+
+if (isset($_POST['subbtn'])) {
+
+
+    if ($_POST['pass'] == $_POST['cnfpass']) {
+        echo "<script>  alert('Thank You for submitting the values ')  </script>";
+        echo "Name : " .  $_POST['name'];
+        echo "<br>";
+        echo "Gender :" .  $_POST['gen'];
+        echo "<br>";
+        echo "Branch :" .  $_POST['branch'];
+
+        echo "<br>";
+        echo "Address :" .  $_POST['Address'];
+
+        echo "<br>";
+        echo "Pincode :" .  $_POST['Pincode'];
+
+        echo "<br>";
+        echo "Mobile :" .  $_POST['Mobile'];
+
+
+        echo "<br>";
+        echo "Email :" .  $_POST['Email'];
+
+
+        echo "<br>";
+        echo "Password :" .  $_POST['pass'];
+    } else {
+        echo "<script>  alert('Password and Confirm Password doesnt MATCH ')  </script>";
+    }
+}
+
+
+?>
