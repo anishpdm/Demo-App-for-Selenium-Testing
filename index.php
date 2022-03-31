@@ -21,7 +21,7 @@
                     <table class="table table-borderless">
                         <tr>
                             <td> Name </td>
-                            <td><input type="text" name="name" class="form-control"> </td>
+                            <td><input required type="text" name="name" class="form-control"> </td>
                         </tr>
                         <tr>
                             <td> Gender</td>
@@ -49,8 +49,10 @@
 <?php
 
 if (isset($_POST['subbtn'])) {
-    echo "Name = " .  $_POST['name'];
-    echo "Gender = " .  $_POST['gen'];
+    echo "<script>  alert('Thank You for submitting the values ')  </script>";
+    echo "Name : " .  $_POST['name'];
+    echo "<br>";
+    echo "Gender :" .  $_POST['gen'];
 }
 
 
