@@ -42,8 +42,8 @@
 
 
                         <tr>
-                            <td> <input type="checkbox" class="form-control"> &nbsp;&nbsp;&nbsp; Agree Terms and Conditions </td>
-                            <td> </td>
+                            <td> <input type="checkbox" class="form-control"> &nbsp; Agree Terms and Conditions </td>
+                          
                         </tr>
                         <tr>
                             <td> </td>
