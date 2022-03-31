@@ -25,8 +25,11 @@
                         </tr>
                         <tr>
                             <td> Gender</td>
-                            <td> <input type="radio" value="Male" name="gen"> Male </td>
-                            <td><input type="radio" value="Female" name="gen"> FeMale </td>
+                            <td> <input type="radio" value="Male" name="gen"> Male &nbsp;&nbsp;&nbsp;<input type="radio" value="Female" name="gen"> FeMale </td>
+                        </tr>
+                        <tr>
+                            <td> <input type="text" class="checkbox"> &nbsp;&nbsp;&nbsp; Agree Terms and Conditions </td>
+                            <td> </td>
                         </tr>
                         <tr>
                             <td> </td>
