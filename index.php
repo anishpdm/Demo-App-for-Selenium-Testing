@@ -55,7 +55,7 @@
                         </tr>
                         <tr>
                             <td> </td>
-                            <td> <button name="subbtn" class="btn btn-success"> LogIn</button> </td>
+                            <td> <button name="subbtn" class="btn btn-success"> SUBMIT </button> </td>
                         </tr>
                     </table>
                 </form>
