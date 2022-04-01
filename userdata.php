@@ -43,6 +43,11 @@
                         </tr>
 
                         <tr>
+                            <td> D.O.B </td>
+                            <td><input required type="date" name="dob" class="form-control"> </td>
+                        </tr>
+
+                        <tr>
                             <td> Address </td>
                             <td> <textarea class="form-control" name="Address" cols="30" rows="10"></textarea> </td>
                         </tr>
@@ -123,6 +128,9 @@ if (isset($_POST['subbtn'])) {
 
         echo "<br>";
         echo "Mobile :" .  $_POST['Mobile'];
+
+        echo "<br>";
+        echo "DOB :" .  $_POST['dob'];
 
 
         echo "<br>";
